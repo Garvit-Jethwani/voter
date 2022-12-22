@@ -35,7 +35,7 @@ Pattern: http://$namespace.$serviceName.$clusterPublicIP.nip.io
 Voter: [default.voter.10.10.0.10.nip.io](http://default.voter.10.10.0.10.nip.io)
 
 ElectionCommission: [default.ec.10.10.0.10.nip.io](default.ec.10.10.0.10.nip.io)
-
+..
 ## How to test deployed app
 
 Build and deploy service-test-suite in roost cluster.
