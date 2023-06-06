@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  voter:
+    image: voter:${ROOST_NAMESPACE}
+    container_name: voter
+    ports: 
+      - "30041:80"
